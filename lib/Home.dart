@@ -9,7 +9,15 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: Text("Asoy Uhuyr")),
+      body: Center(child: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage(''), fit: BoxFit.fill),
+        ),
+      ),
+      ),
     );
   }
 }
+
+

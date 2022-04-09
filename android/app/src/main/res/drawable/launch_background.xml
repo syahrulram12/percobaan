@@ -3,7 +3,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <solid android:color="#D44BB4"/>
+            <solid android:color="#FFFFFF"/>
         </shape>
     </item>
 
@@ -11,6 +11,6 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/ic_launcher"/>
+            android:src="@drawable/icon_02"/>
     </item>
 </layer-list>
